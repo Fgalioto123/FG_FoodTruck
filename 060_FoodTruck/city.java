@@ -32,7 +32,7 @@ public class city {
         }
 
         tutorial();
-        
+        sc.close();
     }
 
     public static foodItems[] createRecipes() {
@@ -102,6 +102,7 @@ public class city {
                 break;
             } else {}
         }
+        sc.close();
     }
 
     public static void runGame(players player) {
@@ -109,5 +110,6 @@ public class city {
         foodItems[] recipes = createRecipes();
         ArrayList<Customers> listOfCustomers = createCustomers(recipes);
         System.out.println(listOfCustomers.get(0).toString());
+        sc.close();
     }
 }
