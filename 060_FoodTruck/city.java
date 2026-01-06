@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 //need to make the rest of run game method
 
-public class main {
+public class city {
     public static void main(String[] args) {
         players player = new players(0, 1, 1);
         Scanner sc = new Scanner(System.in);
