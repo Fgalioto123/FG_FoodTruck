@@ -100,7 +100,7 @@ public class city {
                 System.out.println("Amazing! Let it now begin!");
                 System.out.println();
                 break;
-            } else {}
+            } 
         }
         sc.close();
     }
